@@ -1,4 +1,4 @@
-package com.kh.jdbc.day02.member.model.dao;
+package com.kh.jdbc.day02.stmt.member.model.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kh.jdbc.day02.member.model.vo.Member;
+import com.kh.jdbc.day02.stmt.member.model.vo.Member;
 
 public class MemberDAO {
 	final String DRIVER_NAME = "oracle.jdbc.driver.OracleDriver";

@@ -1,10 +1,10 @@
-package com.kh.jdbc.day02.member.view;
+package com.kh.jdbc.day02.stmt.member.view;
 
 import java.util.List;
 import java.util.Scanner;
 
-import com.kh.jdbc.day02.member.controller.MemberController;
-import com.kh.jdbc.day02.member.model.vo.Member;
+import com.kh.jdbc.day02.stmt.member.controller.MemberController;
+import com.kh.jdbc.day02.stmt.member.model.vo.Member;
 
 public class MemberView {
 	MemberController mController;
